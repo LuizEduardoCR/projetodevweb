@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding:0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+}
+
+h1{
+    font-size: 65px;
+    margin-top: -700px;
+    font-weight: 900;
+    color: white;
+}
+
+h2, h3, h4, h5, h6{
+    font-weight: 500;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0% auto;
+
+}
+
+main{
+    display: block;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 720px;
+    margin: 0% auto;
+    padding: 0% 20%;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px;
+    background: red;
+    text-align: center;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover; 
+    text-align: center;
+}
+
+section.module.parallax-1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/14/RHCP_Live_in_London_26_June_2022.jpg")
+}
